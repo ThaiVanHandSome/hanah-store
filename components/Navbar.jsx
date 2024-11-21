@@ -53,13 +53,14 @@ const Navbar = ({ Searchproducts }) => {
         {toggleMenu && (
           <div className="navbar-smallscreen_overlay">
             <Link href="/">
-              <Image
-                className="logo-small"
-                src={logo}
-                width={140}
-                height={25}
-                alt="logo"
-              />
+              <p
+                style={{
+                  fontFamily: "'Montserrat', sans-serif;",
+                  fontWeight: "800",
+                }}
+              >
+                HANAH
+              </p>
             </Link>
             <RiCloseLine
               color="black"
